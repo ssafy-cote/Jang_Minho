@@ -6,6 +6,9 @@ import java.util.Scanner;
  * S(0) = "m o o" 
  * S(1) = "m o o m o o o m o o" 
  * S(2) = "m o o m o o o m o o m o o o o m o o m o o o m o o"
+ * 
+ * m의 위치를 모두 기록할 경우, m은 총 268435455개 -> 메모리 초과
+ * moolen이 10억개를 넘어가기 위한 while 반복 수 : 31
  */
 public class B_5904_moo게임 {
 	static int[] moolen;
